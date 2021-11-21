@@ -1,0 +1,44 @@
+
+<mat-card class="example-card">
+  <!-- <mat-card-subtitle>  </mat-card-subtitle> -->
+  <mat-card-title class="align-right">{{ cardTitle }}</mat-card-title>
+
+  <mat-card-content>
+    <ng-container>
+      <div fxLayout="row" class="preview-chart-container">
+        <div fxFlex="40" class="chart-col">
+          <app-preview-chart [percentage]="percentage"></app-preview-chart>
+        </div>
+        <div fxFlex="60"  class="cta-col">
+          <p style="text-align:right; font-size: 1rem;">Fixed Budget: 200,00 €</p>
+          <div fxLayout="row" fxLayoutAlign="end center">
+             <mat-icon color="accent" style="margin-right: 5px;">savings</mat-icon>  {{ fixedBudget | currency }}
+            <mat-icon color="primary" style="margin-left: 20px;">arrow_downward</mat-icon> 150,00
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </mat-card-content>
+
+  <mat-divider inset></mat-divider>
+  <mat-card-actions fxLayout="row" fxLayoutAlign="flex-end">
+    <!-- <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button> -->
+    <!-- <span class="custom-info">INFO</span> -->
+    <button 
+      [routerLink]="routePath" 
+      [queryParams]="{ detail: routePath}" 
+      class="custom-cta"  
+      mat-icon-button color="primary" 
+      aria-label="Example icon button with a menu icon"
+    >
+      <mat-icon matTooltip="Vai al dettaglio" >chevron_right</mat-icon>
+    </button>
+  </mat-card-actions>
+  <mat-card-footer>
+    <!-- <mat-progress-bar mode="indeterminate"></mat-progress-bar> -->
+  </mat-card-footer>
+</mat-card>
+
+
+

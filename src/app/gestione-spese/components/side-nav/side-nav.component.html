@@ -1,0 +1,32 @@
+
+
+<mat-drawer-container class="app-sidenav-container">
+  
+  <mat-drawer 
+    #drawer 
+    [mode]="'push'" 
+    [opened]="!isScreenSmall" 
+    class="app-sidenav mat-elevation-z8"
+  >
+
+    <mat-toolbar color="">Dashboard</mat-toolbar>
+    <mat-list role="list">
+      <mat-list-item role="listitem">Item 1</mat-list-item>
+      <mat-list-item role="listitem">Item 2</mat-list-item>
+      <mat-list-item role="listitem">Item 3</mat-list-item>
+    </mat-list>    
+
+  </mat-drawer>
+
+  <mat-drawer-content class="app-sidenav-content">
+    
+    <app-toolbar (toggleSidenav)="drawer.toggle()"></app-toolbar>
+      <div class="wrapper">
+        <router-outlet></router-outlet>
+      </div>
+      
+  </mat-drawer-content>
+
+</mat-drawer-container>
+
+

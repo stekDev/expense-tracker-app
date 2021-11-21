@@ -1,0 +1,56 @@
+<section class="main-container">
+
+  <!-- <mat-card class="title-card">
+    <p>{{ today | date: 'fullDate' }}</p>
+  </mat-card> -->
+  <p class="title-card"> 
+    <span>
+      <mat-icon color="primary" class="main-icon">
+        calendar_today
+      </mat-icon>
+      <span style="color: #3f51b5;">
+        {{ today | date: 'fullDate' }}
+      </span>
+    </span> 
+  </p> 
+
+  <mat-divider style="margin-bottom: 30px;"></mat-divider>
+
+  <div fxLayout="row" fxLayoutAlign="space-between">
+    <section class="column">
+      <app-preview-card
+        [percentage]="'50'" 
+        [routePath]="'generi-alimentari/dettaglio'" 
+        cardTitle="Generi Alimentari"
+        [fixedBudget]="'200'"
+      ></app-preview-card>
+    </section>
+    <section class="column">
+      <app-preview-card
+        [percentage]="'89'" 
+        [routePath]="'utenze/dettaglio'" 
+        cardTitle="Utenze"
+        [fixedBudget]="'150'"
+      ></app-preview-card>
+    </section>
+    <section class="column">
+      <app-preview-card
+        [percentage]="'68'"
+        [routePath]="'altre-voci/dettaglio'" 
+        cardTitle="Altre Voci"
+        [fixedBudget]="'100'"
+      ></app-preview-card>
+    </section>
+  </div>
+
+  <section>
+    <app-main-chart></app-main-chart>
+  </section>
+
+</section>
+
+
+
+
+
+

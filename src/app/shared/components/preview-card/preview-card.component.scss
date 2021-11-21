@@ -1,0 +1,27 @@
+.align-right {
+  text-align: right;
+}
+
+.preview-chart-container {
+  // border: 1px solid red;
+}
+
+.custom-cta {
+  position: relative;
+  right: 10px;
+  bottom: 2px;
+}
+.custom-info {
+  position: relative;
+  left: 10px;
+  bottom: 2px;
+}
+
+
+.chart-col {
+  // overflow: hidden;
+}
+
+.mat-card-actions::ng-deep {
+  margin-bottom: 0px!important;
+}

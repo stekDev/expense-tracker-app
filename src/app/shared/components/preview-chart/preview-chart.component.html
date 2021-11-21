@@ -1,0 +1,18 @@
+<div class="svg-container">
+  <svg viewBox="0 0 36 36" class="circular-chart">
+    <path
+      [ngClass]="{'circle-danger': (+percentage > 80), 'circle-warning': (+percentage > 60 && +percentage < 80), 'circle-success': (+percentage < 60)}" 
+      #path
+      class="circle"
+      [attr.stroke-dasharray]="strokeDasharray"
+      d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+    />
+    <text class="percentage-text" x="51%" y="53%" dominant-baseline="middle" text-anchor="middle">{{percentage}}%</text>    
+  </svg>
+</div>
+
+
+<!-- stroke-dasharray="60, 100" -->
+

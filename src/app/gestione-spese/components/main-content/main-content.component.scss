@@ -1,0 +1,21 @@
+.main-container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20px;
+  // border: 1px solid red;
+
+  .title-card {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .column {
+    width: 32%;
+  }
+  .main-icon {
+    position: relative;
+    top: 4px;
+  }
+  
+}

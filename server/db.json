@@ -1,0 +1,171 @@
+{
+  
+  "months": [
+
+  ],
+  "reports": [
+    
+  ],
+  "multi": [
+    {
+      "name": "Generi Alimentari",
+      "series": [
+        {
+          "name": "Gennaio",
+          "value": 1200
+        },
+        {
+          "name": "Febbraio",
+          "value": 1100
+        },
+        {
+          "name": "Marzo",
+          "value": 1000
+        },
+        {
+          "name": "Aprile",
+          "value": 900
+        },
+        {
+          "name": "Maggio",
+          "value": 800
+        },
+        {
+          "name": "Giugno",
+          "value": 700
+        },
+        {
+          "name": "Luglio",
+          "value": 600
+        },
+        {
+          "name": "Agosto",
+          "value": 500
+        },
+        {
+          "name": "Settembre",
+          "value": 400
+        },
+        {
+          "name": "Ottobre",
+          "value": 300
+        },
+        {
+          "name": "Novembre",
+          "value": 200
+        },
+        {
+          "name": "Dicembre",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "Utenze",
+      "series": [
+        {
+          "name": "Gennaio",
+          "value": 1200
+        },
+        {
+          "name": "Febbraio",
+          "value": 1100
+        },
+        {
+          "name": "Marzo",
+          "value": 1000
+        },
+        {
+          "name": "Aprile",
+          "value": 900
+        },
+        {
+          "name": "Maggio",
+          "value": 800
+        },
+        {
+          "name": "Giugno",
+          "value": 700
+        },
+        {
+          "name": "Luglio",
+          "value": 600
+        },
+        {
+          "name": "Agosto",
+          "value": 500
+        },
+        {
+          "name": "Settembre",
+          "value": 400
+        },
+        {
+          "name": "Ottobre",
+          "value": 300
+        },
+        {
+          "name": "Novembre",
+          "value": 200
+        },
+        {
+          "name": "Dicembre",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "Altre Voci",
+      "series": [
+        {
+          "name": "Gennaio",
+          "value": 1186
+        },
+        {
+          "name": "Febbraio",
+          "value": 250
+        },
+        {
+          "name": "Marzo",
+          "value": 369
+        },
+        {
+          "name": "Aprile",
+          "value": 488
+        },
+        {
+          "name": "Maggio",
+          "value": 875
+        },
+        {
+          "name": "Giugno",
+          "value": 326
+        },
+        {
+          "name": "Luglio",
+          "value": 952
+        },
+        {
+          "name": "Agosto",
+          "value": 130
+        },
+        {
+          "name": "Settembre",
+          "value": 400
+        },
+        {
+          "name": "Ottobre",
+          "value": 300
+        },
+        {
+          "name": "Novembre",
+          "value": 200
+        },
+        {
+          "name": "Dicembre",
+          "value": 100
+        }
+      ]
+    }
+  ]
+  
+}

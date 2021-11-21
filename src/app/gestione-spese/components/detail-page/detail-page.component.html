@@ -1,0 +1,33 @@
+<div class="main-container">
+  <div class="title-card" fxLayout="row" fxLayoutAlign=""> 
+    <span>
+      <mat-icon class="home-icon" (click)="navigateToHome()">
+        {{ 'home' }}
+      </mat-icon>
+      <span style="color: rgb(196, 196, 196);">{{ ' / ' }}</span>
+      <mat-icon color="primary">
+        {{ icon }}
+      </mat-icon>
+      <span class="title-section">
+        {{ titleSection }}
+      </span>
+    </span> 
+  </div> 
+
+  <mat-divider style="margin-bottom: 30px;"></mat-divider>
+
+  <div>
+    <section *ngIf="vociDiSpesa.showUtenze">
+      <app-cr-gest-utenze></app-cr-gest-utenze>
+    </section>
+    <section *ngIf="vociDiSpesa.showAltreVoci">
+      <app-cr-gest-altre></app-cr-gest-altre>
+    </section>
+    <section *ngIf="vociDiSpesa.showGeneriAlimentari">
+      <app-cr-gest-alim></app-cr-gest-alim>
+    </section>
+  </div>
+
+</div>
+
+
